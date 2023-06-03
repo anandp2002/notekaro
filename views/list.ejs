@@ -1,8 +1,8 @@
-<%- include("header") -%>
+<%- include("./partials/header") -%>
 
   <div class="box" id="heading">
-    <h1>
-      <%= listTitle %>
+    <h1 class="listh1">
+      <%= listTitle.split("@")[0] %>
     </h1>
   </div>
 
@@ -26,8 +26,8 @@
 
         <form class="item" action="/" method="post">
           <input type="text" name="newItem" placeholder="New item" autocomplete="off">
-          <button type="submit" name="list" value="<%=listTitle%>">+</button>
+          <button class="addButton" type="submit" name="list" value="<%=listTitle%>">+</button>
         </form>
   </div>
 
-  <%- include("footer") -%>
+  <%- include("./partials/footer") -%>
