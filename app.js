@@ -8,7 +8,7 @@ const _ = require("lodash")
 
 const app = express()
 
-mongoose.connect("mongodb+srv://admin:Anand123@cluster0.gyvcdth.mongodb.net/todolistDB", { useNewUrlParser: true })
+mongoose.connect("mongodb://127.0.0.1:27017/todolistDB", { useNewUrlParser: true })
 
 const userSchema = new mongoose.Schema({
     email: String,
@@ -49,11 +49,6 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 app.get("/", function (req, res) {
     res.render("home")
-})
-
-
-app.get("/login", function (req, res) {
-    res.render("login")
 })
 
 

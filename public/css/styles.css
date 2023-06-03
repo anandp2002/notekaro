@@ -1,7 +1,10 @@
 
 body {
-  background-color: #E4E9FD;
+  height: 50%;
+  background-color: #e8eefa;
+  padding-top: 70px;
 }
+
 
 .centered {
     padding-top: 200px;
@@ -16,7 +19,7 @@ body {
 }
 
 .background{
-  background-color: #E4E9FD;
+  background-color: #e8eefa;
 }
 .todolistimage{
   width: 10%;
@@ -27,9 +30,9 @@ body {
 }
 
 html {
-  background-color: #E4E9FD;
-  background-image: -webkit-linear-gradient(65deg, #E4E9FD 50%, #E4E9FD 50%);
-  min-height: 1000px;
+  background-color: #e8eefa;
+  background-image: -webkit-linear-gradient(65deg, #e8eefa 50%, #e8eefa 50%);
+  height: 50%;
   font-family: 'helvetica neue';
 }
 
@@ -47,7 +50,7 @@ html {
 }
 
 #heading {
-  background-color: #8480db;
+  background-color: #0c6cfc;
   text-align: center;
 }
 
@@ -64,7 +67,7 @@ html {
 
 input:checked+p {
   text-decoration: line-through;
-  text-decoration-color: #A683E3;
+  text-decoration-color: #0c6cfc;
 }
 
 input[type="checkbox"] {
@@ -89,7 +92,7 @@ form.item{
   width: 50px;
   border-radius: 50%;
   border-color: transparent;
-  background-color: #8480db;
+  background-color: #0c6cfc;
   color: #fff;
   font-size: 30px;
   padding-bottom: 6px;
@@ -109,7 +112,7 @@ input[type="text"] {
 
 input[type="text"]:focus {
   outline: none;
-  box-shadow: inset 0 -3px 0 0 #A683E3;
+  box-shadow: inset 0 -3px 0 0 #0c6cfc;
 }
 
 ::placeholder {
@@ -124,3 +127,21 @@ footer {
 }
 
 
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.h-custom {
+  height: calc(100% - 73px);
+}
+
+.todoheading {
+  text-align: center;
+  font-family: "Itim", cursive;
+  color: rgb(53, 53, 98);
+  margin-top: 50px;
+}
