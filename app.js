@@ -8,7 +8,7 @@ const _ = require("lodash")
 
 const app = express()
 
-mongoose.connect("mongodb://127.0.0.1:27017/todolistDB", { useNewUrlParser: true })
+mongoose.connect("mongodb+srv://admin:Anand123@cluster0.gyvcdth.mongodb.net/todolistDB", { useNewUrlParser: true })
 
 const userSchema = new mongoose.Schema({
     email: String,
