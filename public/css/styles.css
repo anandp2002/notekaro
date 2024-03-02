@@ -1,14 +1,12 @@
-
-body {
+/* body {
   height: 50%;
   background-color: #e8eefa;
   padding-top: 70px;
 }
 
-
 .centered {
-    padding-top: 200px;
-    text-align: center;
+  padding-top: 200px;
+  text-align: center;
 }
 
 .secret-text {
@@ -18,14 +16,14 @@ body {
   background-color: #000;
 }
 
-.background{
+.background {
   background-color: #e8eefa;
 }
-.todolistimage{
+.todolistimage {
   width: 10%;
   height: auto;
 }
-.display-3{
+.display-3 {
   font-family: 'Kalam', cursive;
 }
 
@@ -58,19 +56,19 @@ html {
   min-height: 70px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #F1F1F1;
+  border-bottom: 1px solid #f1f1f1;
 }
 
 .item:last-child {
   border-bottom: 0;
 }
 
-input:checked+p {
+input:checked + p {
   text-decoration: line-through;
   text-decoration-color: #0c6cfc;
 }
 
-input[type="checkbox"] {
+input[type='checkbox'] {
   margin: 20px;
 }
 
@@ -82,7 +80,7 @@ p {
   color: #00204a;
 }
 
-form.item{
+form.item {
   text-align: center;
   margin-left: 20px;
 }
@@ -99,7 +97,7 @@ form.item{
   border-width: 0;
 }
 
-input[type="text"] {
+input[type='text'] {
   text-align: center;
   height: 60px;
   top: 10px;
@@ -110,7 +108,7 @@ input[type="text"] {
   width: 313px;
 }
 
-input[type="text"]:focus {
+input[type='text']:focus {
   outline: none;
   box-shadow: inset 0 -3px 0 0 #0c6cfc;
 }
@@ -126,10 +124,9 @@ footer {
   text-align: center;
 }
 
-
 .divider:after,
 .divider:before {
-  content: "";
+  content: '';
   flex: 1;
   height: 1px;
   background: #eee;
@@ -141,7 +138,7 @@ footer {
 
 .todoheading {
   text-align: center;
-  font-family: "Itim", cursive;
+  font-family: 'Itim', cursive;
   color: rgb(53, 53, 98);
   margin-top: 50px;
-}
+} */
